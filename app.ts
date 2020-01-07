@@ -19,10 +19,10 @@ function divide(a:number, b:number):any {
 }
 
 function start(a:number, b:number):string {
-    const resultAdd = add(a, b);
-    const resultSubstract = substract(a, b);
-    const resultMultiply = multiply(a, b);
-    const resultDivide = divide(a, b);
+    const resultAdd:number = add(a, b);
+    const resultSubstract:number = substract(a, b);
+    const resultMultiply:number = multiply(a, b);
+    const resultDivide:number = divide(a, b);
 
     return `Suma: ${resultAdd}, resta: ${resultSubstract}, multiplicación: ${resultMultiply}, división: ${resultDivide}`;
 }
